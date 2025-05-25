@@ -46,7 +46,7 @@ local DefaultGarages = {
         }
     },
     {
-        name = "Impound Car",
+        name = "Fourrière",
         garagetype = 'impound',
         defaultGarage = 'Pillbox Hill',
         zoneType = 'target',
@@ -72,7 +72,7 @@ local DefaultGarages = {
         }
     },
     {
-        name = "Los Santos Airport Garage",
+        name = "Garage de l'aéroport",
         garagetype = 'garage',
         zoneType = 'textui',
         blip = true,
@@ -91,7 +91,7 @@ local DefaultGarages = {
         }
     },
     {
-        name = "Impound Air",
+        name = "Fourrière aérienne",
         garagetype = 'impound',
         zoneType = 'target',
         blip = true,
@@ -111,7 +111,7 @@ local DefaultGarages = {
         }
     },
     {
-        name = "La Puerta Boat Garage",
+        name = "Garage à bateaux",
         garagetype = 'garage',
         zoneType = 'target',
         blip = true,
@@ -131,7 +131,7 @@ local DefaultGarages = {
         }
     },
     {
-        name = "Impound Boat",
+        name = "Fourrière maritime",
         garagetype = 'impound',
 
         zoneType = 'target',
