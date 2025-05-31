@@ -92,6 +92,7 @@ function SetBlip(data)
     blip.label = data.name
     blip.sprite = data.blipsprite
     blip.color = data.blipcolor
+    blip.size = data.blipsize
   end
 
   local entity = AddBlipForCoord(data.actioncoords.x, data.actioncoords.y, data.actioncoords.z)

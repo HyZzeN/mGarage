@@ -294,11 +294,12 @@ lib.callback.register('mGarage:Interact', function(source, action, data, vehicle
                     ImpVeh.intocar = data.garage.intocar
                     ImpVeh.source = source
                     Vehicles.CreateVehicle(ImpVeh, function(VehData, Vehicle)
-                        if Vehicles.Config.ItemKeys then
-                            Vehicles.ItemCarKeys(source, 'add', VehData.metadata.fakeplate or VehData.plate)
-                        end
+                        --if Vehicles.Config.ItemKeys then
+                        --    Vehicles.ItemCarKeys(source, 'add', VehData.metadata.fakeplate or VehData.plate)
+                        --end
 
                         Vehicle.RetryImpound(data.garage.defaultGarage)
+                        SetVehicleDoorsLocked(VehData.entity, 2)
                     end)
 
 

@@ -14,16 +14,16 @@ Config.TargetDistance = 10.0
 
 
 Config.BlipDefault          = {
-    stackBlips = true,
-    impound = { label = 'Impound', sprite = 473, color = 17, size = 0.5 },
+    stackBlips = false,
+    impound = { label = 'Fourrière', sprite = 473, color = 17, size = 0.5 },
     garage = { label = 'Garage', sprite = 50, color = 2, size = 0.5 },
-    custom = { label = 'Custom Garage', sprite = 50, color = 0, size = 0.5 },
+    custom = { label = 'Garage Custom', sprite = 50, color = 0, size = 0.5 },
     rent = { label = 'Rent A Car', sprite = 474, color = 0, size = 0.5 },
 }
 
 Config.PedAnims             = {
     anims = true,
-    list = { "WORLD_HUMAN_AA_SMOKE", "WORLD_HUMAN_AA_COFFEE", "WORLD_HUMAN_CLIPBOARD", "WORLD_HUMAN_MUSICIAN", "WORLD_HUMAN_STUPOR" }
+    list = { "WORLD_HUMAN_AA_SMOKE", "WORLD_HUMAN_AA_COFFEE", "WORLD_HUMAN_CLIPBOARD" }
 }
 
 -- ox Target Based job and grade min grade
@@ -38,11 +38,11 @@ Config.ImpoundVehicledelete = true
 
 -- Default impounds names
 Config.DefaultImpound       = {
-    car = 'Impound Car',
-    air = 'Impound Air',
-    boat = 'Impound Boat',
+    car = 'Fourrière',
+    air = 'Fourrière aérienne',
+    boat = 'Fourrière nautique',
     price = 50,
-    note = 'Vehicle seized by the municipal service'
+    note = 'Véhicules saisis par les services municipaux'
 }
 
 
